@@ -48,7 +48,7 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="home.html">الرئيسية</a></li>
-                                        <li><a class="active" href="student-list.html">قائمة الطلاب</a></li>
+                                        <li><a href="student-list.html">قائمة الطلاب</a></li>
                                         <li><a href="#">مدرستي<i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="home-works.html">الواجبات المنزلية</a></li>
@@ -58,7 +58,7 @@
                                             <ul class="submenu">
                                                 <li><a href="home-works.html">مدرسين</a></li>
                                                 <li><a href="elements.html">اولياء الامر</a></li>
-                                                <li><a href="elements.html">طلاب</a></li>
+                                                <li><a class="active" href="elements.html">تعديل قوائم الطلاب</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="about.html">المدرسين</a></li>
@@ -101,7 +101,7 @@
     <!-- header-end -->
         <!-- bradcam_area_start -->
         <div class="bradcam_area breadcam_bg overlay2">
-            <h3>قائمة طلاب مدرسة <span>...</span></h3>
+            <h3>تعديل طلاب مدرسة <span>...</span></h3>
         </div>
         <!-- bradcam_area_end -->
 <!-- Student's table -->
@@ -116,6 +116,7 @@
                 <th scope="col">المدرسة</th>
                 <th scope="col">المديرية</th>
                 <th scope="col">البريد الالكتروني</th>
+                <th scope="col">تعديل</th>
       </tr>
     </thead>
     <tbody class="text-right">
@@ -127,6 +128,10 @@
             <td>اعداية كركوك</td>
             <td>مديرية كركوك</td>
             <td>ofydesigner.2008@gmail.com</td>
+            <td class="text-center">
+                <a href="#"><i class="fa fa-edit edit-icon"></a></i> 
+                <a href="#"><i class="fa fa-user-times "></i></a></i>
+            </td>
         </tr>
         <tr>
             <th scope="row">000112</th>
@@ -136,6 +141,10 @@
         <td>ثانوية كربلاء</td>
             <td>مديرية كربلاء</td>
         <td>ramisalimaljaf@gmail.com</td>
+        <td class="text-center">
+                <a href="#"><i class="fa fa-edit edit-icon"></a></i> 
+                <a href="#"><i class="fa fa-user-times "></i></a></i>
+            </td>
     </tr>
       <tr>
           <th scope="row">000113</th>
@@ -145,6 +154,10 @@
         <td>اعداية بغداد</td>
         <td>مديرية الكرخ</td>
         <td>alijasim@gmail.com</td>
+        <td class="text-center">
+                <a href="#"><i class="fa fa-edit edit-icon"></a></i> 
+                <a href="#"><i class="fa fa-user-times "></i></a></i>
+            </td>
     </tr>
 </tbody>
 </table>
@@ -241,18 +254,49 @@
                         </div>
                     </div>
                 </form>
+                <p class="doen_have_acc">Don’t have an account? <a class="dont-hav-acc" href="#test-form2">Sign Up</a>
+                </p>
             </div>
         </div>
     </form>
     <!-- form itself end -->
 
-   
+    <!-- form itself end-->
+    <form id="test-form2" class="white-popup-block mfp-hide">
+        <div class="popup_box ">
+            <div class="popup_inner">
+                <div class="logo text-center">
+                    <a href="#">
+                        <img src="img/form-logo.png" alt="">
+                    </a>
+                </div>
+                <h3>Resistration</h3>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-xl-12 col-md-12">
+                            <input type="email" placeholder="Enter email">
+                        </div>
+                        <div class="col-xl-12 col-md-12">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="col-xl-12 col-md-12">
+                            <input type="Password" placeholder="Confirm password">
+                        </div>
+                        <div class="col-xl-12">
+                            <button type="submit" class="boxed_btn_orange">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <!-- form itself end -->
 
-    
-    <!-- JS here -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+    <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

@@ -15,6 +15,28 @@
 .lista{
   margin: 25px;
 }
+.edit-icon{
+margin-left:15px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu> a:after {
+  content: ">";
+  float: right;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
 .header-area .main-header-area.sticky {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
