@@ -2591,29 +2591,29 @@ h3 {
   border: 1px solid #E8E8E8;
   padding: 38px 30px;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: -100px;
   z-index: 0;
 }
 
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
-.our_courses .single_course .icon i {
+/* .our_courses .single_course .icon i {
   color: #FD8E5E;
   font-size: 45px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-}
+} */
 
 /* line 30, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
-.our_courses .single_course .icon.blue i {
+/* .our_courses .single_course .icon.blue i {
   color: #04D2C8 !important;
-}
+} */
 
 /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
-.our_courses .single_course .icon.gradient i {
+/* .our_courses .single_course .icon.gradient i {
   color: #D465EF;
-}
+} */
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course h3 {
